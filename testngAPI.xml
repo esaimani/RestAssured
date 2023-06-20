@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="FakeStoreAPI">
+    <listeners>
+        <listener class-name="reportUtils.ReportSetup"></listener>
+    </listeners>
+    <test name="Product API">
+        <classes>
+            <class name="FakeStore.tests.ProductAPI"></class>
+        </classes>
+    </test>
+</suite>
